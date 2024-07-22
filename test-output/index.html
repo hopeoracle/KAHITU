@@ -1,0 +1,3450 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Huy Nguyen\eclipse-workspace\DuAn1_Nhom5\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">114 methods, 1 failed,   113 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectNhanVienByMaNV">testSelectNhanVienByMaNV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getDonGiaTest">getDonGiaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getGhiChuTest">getGhiChuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getGhiChuTest">getGhiChuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getMaDHCTTest">getMaDHCTTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getMaDHTest">getMaDHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getMaDHTest">getMaDHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getMaKHTest">getMaKHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getMaNVTest">getMaNVTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getMaSPTest">getMaSPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getNgayLapTest">getNgayLapTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getSoLuongTest">getSoLuongTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="getTongTienTest">getTongTienTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="getTotalPriceTest">getTotalPriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setDonGiaTestWithNegative">setDonGiaTestWithNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setDonGiaTestWithValid">setDonGiaTestWithValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setDonGiaTestWithZero">setDonGiaTestWithZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setGhiChuTest">setGhiChuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setGhiChuTest">setGhiChuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setMaDHCTTest">setMaDHCTTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setMaDHTest">setMaDHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setMaDHTest">setMaDHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setMaKHTest">setMaKHTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setMaNVTest">setMaNVTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setMaSPTest">setMaSPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setNgayLapTest">setNgayLapTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setNgayLap_withInvalidDate">setNgayLap_withInvalidDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setSoLuongTestWithNegative">setSoLuongTestWithNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setSoLuongTestWithValid">setSoLuongTestWithValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest" class="method navigator-link" hash-for-method="setSoLuongTestWithZero">setSoLuongTestWithZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ShopQuanLyAoQuan.entity.test.DonHangTest" class="method navigator-link" hash-for-method="setTongTienTest">setTongTienTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testDeleteWithEmptyModel">testDeleteWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testDeleteWithNullModel">testDeleteWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testDeleteWithValidModel">testDeleteWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testInsertWithEmptyModel">testInsertWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testInsertWithNullModel">testInsertWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testInsertWithValidModel">testInsertWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testMaLoaiExists">testMaLoaiExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testMaNVExists">testMaNVExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testSelectAll">testSelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testSelectByEmail">testSelectByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testSelectByEmail">testSelectByEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testSelectById">testSelectById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testSelectByIdDH">testSelectByIdDH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testSelectBySDT">testSelectBySDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testSelectBySDT">testSelectBySDT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectBySql">testSelectBySql</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testSelectByTenSP">testSelectByTenSP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectDay">testSelectDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectMonth">testSelectMonth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectNhanVienByMaDH">testSelectNhanVienByMaDH</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testSelectYear">testSelectYear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testTenLoaiExists">testTenLoaiExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testTimKiemByMaKHOrHoTen">testTimKiemByMaKHOrHoTen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testTimKiemByMaSPOrTenSP">testTimKiemByMaSPOrTenSP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testTimkiemByMaNVOrTenNV">testTimkiemByMaNVOrTenNV</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testUpdateWithEmptyModel">testUpdateWithEmptyModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testUpdateWithNullModel">testUpdateWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestPhanLoaiSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestNhanVienDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestDonHangChiTietDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestSanPhamDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNGDAO.TestKhachHangDAO" class="method navigator-link" hash-for-method="testUpdateWithValidModel">testUpdateWithValidModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNGDAO.TestDonHangDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectNhanVienByMaNV">
+                  </a> <!-- testSelectNhanVienByMaNV -->
+                  <span class="method-name">testSelectNhanVienByMaNV</span>
+                  <div class="stack-trace">java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:78)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectNhanVienByMaNV(DonHangDAO.java:83)
+	at TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaNV(TestDonHangDAO.java:208)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:233)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.findColumn(SQLServerResultSet.java:748)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getString(SQLServerResultSet.java:2582)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:69)
+	... 28 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Kiểm tra truy vấn đơn hàng theo mã nhân viên)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestPhanLoaiSanPhamDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaLoaiExists">
+                  </a> <!-- testMaLoaiExists -->
+                  <span class="method-name">testMaLoaiExists</span>
+                  <em>
+(Kiểm thử kiểm tra sự tồn tại của Mã Loại)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm thử lấy tất cả)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm thử lấy theo ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTenLoaiExists">
+                  </a> <!-- testTenLoaiExists -->
+                  <span class="method-name">testTenLoaiExists</span>
+                  <em>
+(Kiểm thử kiểm tra sự tồn tại của Tên Loại)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestNhanVienDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaNVExists">
+                  </a> <!-- testMaNVExists -->
+                  <span class="method-name">testMaNVExists</span>
+                  <em>
+(Kiểm tra sự tồn tại của Mã NV)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm thử lấy tất cả)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectByEmail">
+                  </a> <!-- testSelectByEmail -->
+                  <span class="method-name">testSelectByEmail</span>
+                  <em>
+(Kiểm thử lấy theo Email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm thử lấy theo ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectBySDT">
+                  </a> <!-- testSelectBySDT -->
+                  <span class="method-name">testSelectBySDT</span>
+                  <em>
+(Kiểm thử lấy theo SDT)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTimkiemByMaNVOrTenNV">
+                  </a> <!-- testTimkiemByMaNVOrTenNV -->
+                  <span class="method-name">testTimkiemByMaNVOrTenNV</span>
+                  <em>
+(Kiểm thử tìm kiếm theo Mã NV hoặc Tên NV)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestDonHangChiTietDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm tra lấy tất cả các bản ghi từ bảng hóa đơn chi tiết)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng chi tiết)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectByIdDH">
+                  </a> <!-- testSelectByIdDH -->
+                  <span class="method-name">testSelectByIdDH</span>
+                  <em>
+(Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDonGiaTest">
+                  </a> <!-- getDonGiaTest -->
+                  <span class="method-name">getDonGiaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGhiChuTest">
+                  </a> <!-- getGhiChuTest -->
+                  <span class="method-name">getGhiChuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaDHCTTest">
+                  </a> <!-- getMaDHCTTest -->
+                  <span class="method-name">getMaDHCTTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaDHTest">
+                  </a> <!-- getMaDHTest -->
+                  <span class="method-name">getMaDHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaSPTest">
+                  </a> <!-- getMaSPTest -->
+                  <span class="method-name">getMaSPTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSoLuongTest">
+                  </a> <!-- getSoLuongTest -->
+                  <span class="method-name">getSoLuongTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTotalPriceTest">
+                  </a> <!-- getTotalPriceTest -->
+                  <span class="method-name">getTotalPriceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setDonGiaTestWithNegative">
+                  </a> <!-- setDonGiaTestWithNegative -->
+                  <span class="method-name">setDonGiaTestWithNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setDonGiaTestWithValid">
+                  </a> <!-- setDonGiaTestWithValid -->
+                  <span class="method-name">setDonGiaTestWithValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setDonGiaTestWithZero">
+                  </a> <!-- setDonGiaTestWithZero -->
+                  <span class="method-name">setDonGiaTestWithZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setGhiChuTest">
+                  </a> <!-- setGhiChuTest -->
+                  <span class="method-name">setGhiChuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaDHCTTest">
+                  </a> <!-- setMaDHCTTest -->
+                  <span class="method-name">setMaDHCTTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaDHTest">
+                  </a> <!-- setMaDHTest -->
+                  <span class="method-name">setMaDHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaSPTest">
+                  </a> <!-- setMaSPTest -->
+                  <span class="method-name">setMaSPTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setSoLuongTestWithNegative">
+                  </a> <!-- setSoLuongTestWithNegative -->
+                  <span class="method-name">setSoLuongTestWithNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setSoLuongTestWithValid">
+                  </a> <!-- setSoLuongTestWithValid -->
+                  <span class="method-name">setSoLuongTestWithValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setSoLuongTestWithZero">
+                  </a> <!-- setSoLuongTestWithZero -->
+                  <span class="method-name">setSoLuongTestWithZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestSanPhamDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm thử lấy tất cả)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm thử lấy theo ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectByTenSP">
+                  </a> <!-- testSelectByTenSP -->
+                  <span class="method-name">testSelectByTenSP</span>
+                  <em>
+(Kiểm thử lấy theo Tên SP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTimKiemByMaSPOrTenSP">
+                  </a> <!-- testTimKiemByMaSPOrTenSP -->
+                  <span class="method-name">testTimKiemByMaSPOrTenSP</span>
+                  <em>
+(Kiểm thử tìm kiếm theo Mã SP hoặc Tên SP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestDonHangDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm thử lấy tất cả)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm thử lấy theo ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectBySql">
+                  </a> <!-- testSelectBySql -->
+                  <span class="method-name">testSelectBySql</span>
+                  <em>
+(Kiểm tra truy vấn đơn hàng bằng SQL)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectDay">
+                  </a> <!-- testSelectDay -->
+                  <span class="method-name">testSelectDay</span>
+                  <em>
+(Kiểm thử lấy danh sách các ngày đơn hàng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectMonth">
+                  </a> <!-- testSelectMonth -->
+                  <span class="method-name">testSelectMonth</span>
+                  <em>
+(Kiểm tra truy vấn đơn hàng theo tháng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectNhanVienByMaDH">
+                  </a> <!-- testSelectNhanVienByMaDH -->
+                  <span class="method-name">testSelectNhanVienByMaDH</span>
+                  <em>
+(Kiểm tra truy vấn nhân viên theo mã đơn hàng)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectYear">
+                  </a> <!-- testSelectYear -->
+                  <span class="method-name">testSelectYear</span>
+                  <em>
+(Kiểm tra truy vấn đơn hàng theo năm)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ShopQuanLyAoQuan.entity.test.DonHangTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGhiChuTest">
+                  </a> <!-- getGhiChuTest -->
+                  <span class="method-name">getGhiChuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaDHTest">
+                  </a> <!-- getMaDHTest -->
+                  <span class="method-name">getMaDHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaKHTest">
+                  </a> <!-- getMaKHTest -->
+                  <span class="method-name">getMaKHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMaNVTest">
+                  </a> <!-- getMaNVTest -->
+                  <span class="method-name">getMaNVTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNgayLapTest">
+                  </a> <!-- getNgayLapTest -->
+                  <span class="method-name">getNgayLapTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTongTienTest">
+                  </a> <!-- getTongTienTest -->
+                  <span class="method-name">getTongTienTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setGhiChuTest">
+                  </a> <!-- setGhiChuTest -->
+                  <span class="method-name">setGhiChuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaDHTest">
+                  </a> <!-- setMaDHTest -->
+                  <span class="method-name">setMaDHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaKHTest">
+                  </a> <!-- setMaKHTest -->
+                  <span class="method-name">setMaKHTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setMaNVTest">
+                  </a> <!-- setMaNVTest -->
+                  <span class="method-name">setMaNVTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setNgayLapTest">
+                  </a> <!-- setNgayLapTest -->
+                  <span class="method-name">setNgayLapTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setNgayLap_withInvalidDate">
+                  </a> <!-- setNgayLap_withInvalidDate -->
+                  <span class="method-name">setNgayLap_withInvalidDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setTongTienTest">
+                  </a> <!-- setTongTienTest -->
+                  <span class="method-name">setTongTienTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNGDAO.TestKhachHangDAO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithEmptyModel">
+                  </a> <!-- testDeleteWithEmptyModel -->
+                  <span class="method-name">testDeleteWithEmptyModel</span>
+                  <em>
+(Kiểm thử xóa với ID trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithNullModel">
+                  </a> <!-- testDeleteWithNullModel -->
+                  <span class="method-name">testDeleteWithNullModel</span>
+                  <em>
+(Kiểm thử xóa với ID null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWithValidModel">
+                  </a> <!-- testDeleteWithValidModel -->
+                  <span class="method-name">testDeleteWithValidModel</span>
+                  <em>
+(Kiểm thử xóa với ID hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithEmptyModel">
+                  </a> <!-- testInsertWithEmptyModel -->
+                  <span class="method-name">testInsertWithEmptyModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithNullModel">
+                  </a> <!-- testInsertWithNullModel -->
+                  <span class="method-name">testInsertWithNullModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertWithValidModel">
+                  </a> <!-- testInsertWithValidModel -->
+                  <span class="method-name">testInsertWithValidModel</span>
+                  <em>
+(Kiểm thử chèn với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectAll">
+                  </a> <!-- testSelectAll -->
+                  <span class="method-name">testSelectAll</span>
+                  <em>
+(Kiểm thử lấy tất cả)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectByEmail">
+                  </a> <!-- testSelectByEmail -->
+                  <span class="method-name">testSelectByEmail</span>
+                  <em>
+(Kiểm thử lấy theo Email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectById">
+                  </a> <!-- testSelectById -->
+                  <span class="method-name">testSelectById</span>
+                  <em>
+(Kiểm thử lấy theo ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectBySDT">
+                  </a> <!-- testSelectBySDT -->
+                  <span class="method-name">testSelectBySDT</span>
+                  <em>
+(Kiểm thử lấy theo SDT)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTimKiemByMaKHOrHoTen">
+                  </a> <!-- testTimKiemByMaKHOrHoTen -->
+                  <span class="method-name">testTimKiemByMaKHOrHoTen</span>
+                  <em>
+(Kiểm thử tìm kiếm theo Mã KH hoặc Tên KH)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithEmptyModel">
+                  </a> <!-- testUpdateWithEmptyModel -->
+                  <span class="method-name">testUpdateWithEmptyModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithNullModel">
+                  </a> <!-- testUpdateWithNullModel -->
+                  <span class="method-name">testUpdateWithNullModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình null)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWithValidModel">
+                  </a> <!-- testUpdateWithValidModel -->
+                  <span class="method-name">testUpdateWithValidModel</span>
+                  <em>
+(Kiểm thử cập nhật với mô hình hợp lệ)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Huy Nguyen\eclipse-workspace\DuAn1_Nhom5\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ShopQuanLyAoQuan.entity.test.DonHangTest&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestPhanLoaiSanPhamDAO&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestSanPhamDAO&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestDonHangDAO&quot;/&gt;
+      &lt;class name=&quot;ShopQuanLyAoQuan.entity.test.DonHangChiTietTest&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestKhachHangDAO&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestDonHangChiTietDAO&quot;/&gt;
+      &lt;class name=&quot;TestNGDAO.TestNhanVienDAO&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(114);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDeleteWithEmptyModel')
+data.setCell(0, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(0, 3, 449);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testInsertWithValidModel')
+data.setCell(1, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(1, 3, 83);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInsertWithEmptyModel')
+data.setCell(2, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(2, 3, 50);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUpdateWithValidModel')
+data.setCell(3, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(3, 3, 47);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testInsertWithValidModel')
+data.setCell(4, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(4, 3, 46);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testUpdateWithValidModel')
+data.setCell(5, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(5, 3, 44);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUpdateWithEmptyModel')
+data.setCell(6, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(6, 3, 41);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testInsertWithValidModel')
+data.setCell(7, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(7, 3, 40);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testInsertWithNullModel')
+data.setCell(8, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(8, 3, 39);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUpdateWithValidModel')
+data.setCell(9, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(9, 3, 39);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testInsertWithValidModel')
+data.setCell(10, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(10, 3, 38);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDeleteWithValidModel')
+data.setCell(11, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(11, 3, 37);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUpdateWithValidModel')
+data.setCell(12, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(12, 3, 37);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteWithValidModel')
+data.setCell(13, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(13, 3, 33);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMaLoaiExists')
+data.setCell(14, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(14, 3, 30);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testInsertWithNullModel')
+data.setCell(15, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(15, 3, 26);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDeleteWithNullModel')
+data.setCell(16, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(16, 3, 26);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInsertWithNullModel')
+data.setCell(17, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(17, 3, 23);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSelectAll')
+data.setCell(18, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(18, 3, 23);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testDeleteWithValidModel')
+data.setCell(19, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(19, 3, 23);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testDeleteWithValidModel')
+data.setCell(20, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(20, 3, 23);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testDeleteWithEmptyModel')
+data.setCell(21, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(21, 3, 23);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testUpdateWithNullModel')
+data.setCell(22, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(22, 3, 22);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testDeleteWithEmptyModel')
+data.setCell(23, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(23, 3, 22);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDeleteWithNullModel')
+data.setCell(24, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(24, 3, 22);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSelectNhanVienByMaNV')
+data.setCell(25, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(25, 3, 22);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testUpdateWithNullModel')
+data.setCell(26, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(26, 3, 21);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testTenLoaiExists')
+data.setCell(27, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(27, 3, 21);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testDeleteWithEmptyModel')
+data.setCell(28, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(28, 3, 21);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testInsertWithValidModel')
+data.setCell(29, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(29, 3, 20);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSelectYear')
+data.setCell(30, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(30, 3, 20);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSelectById')
+data.setCell(31, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(31, 3, 20);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testSelectAll')
+data.setCell(32, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(32, 3, 20);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testSelectById')
+data.setCell(33, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(33, 3, 20);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSelectById')
+data.setCell(34, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(34, 3, 20);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSelectById')
+data.setCell(35, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(35, 3, 19);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testTimKiemByMaSPOrTenSP')
+data.setCell(36, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(36, 3, 19);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testTimKiemByMaKHOrHoTen')
+data.setCell(37, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(37, 3, 19);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testUpdateWithNullModel')
+data.setCell(38, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(38, 3, 19);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testUpdateWithNullModel')
+data.setCell(39, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(39, 3, 19);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testDeleteWithEmptyModel')
+data.setCell(40, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(40, 3, 19);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testInsertWithNullModel')
+data.setCell(41, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(41, 3, 19);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testUpdateWithValidModel')
+data.setCell(42, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(42, 3, 19);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testSelectByEmail')
+data.setCell(43, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(43, 3, 19);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSelectNhanVienByMaDH')
+data.setCell(44, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(44, 3, 19);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testSelectAll')
+data.setCell(45, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(45, 3, 19);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testUpdateWithValidModel')
+data.setCell(46, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(46, 3, 19);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testDeleteWithNullModel')
+data.setCell(47, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(47, 3, 19);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testSelectByTenSP')
+data.setCell(48, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(48, 3, 19);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testSelectDay')
+data.setCell(49, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(49, 3, 19);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testDeleteWithValidModel')
+data.setCell(50, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(50, 3, 19);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testInsertWithNullModel')
+data.setCell(51, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(51, 3, 18);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testInsertWithNullModel')
+data.setCell(52, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(52, 3, 18);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testSelectBySDT')
+data.setCell(53, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(53, 3, 18);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSelectBySDT')
+data.setCell(54, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(54, 3, 18);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testDeleteWithValidModel')
+data.setCell(55, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(55, 3, 18);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSelectBySql')
+data.setCell(56, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(56, 3, 18);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testDeleteWithNullModel')
+data.setCell(57, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(57, 3, 18);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSelectAll')
+data.setCell(58, 2, 'TestNGDAO.TestSanPhamDAO')
+data.setCell(58, 3, 18);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testSelectMonth')
+data.setCell(59, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(59, 3, 18);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testSelectAll')
+data.setCell(60, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(60, 3, 18);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testDeleteWithNullModel')
+data.setCell(61, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(61, 3, 18);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testInsertWithEmptyModel')
+data.setCell(62, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(62, 3, 18);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testSelectById')
+data.setCell(63, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(63, 3, 18);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testSelectById')
+data.setCell(64, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(64, 3, 18);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testDeleteWithNullModel')
+data.setCell(65, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(65, 3, 18);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testInsertWithValidModel')
+data.setCell(66, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(66, 3, 18);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testDeleteWithEmptyModel')
+data.setCell(67, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(67, 3, 17);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testUpdateWithNullModel')
+data.setCell(68, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(68, 3, 17);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testMaNVExists')
+data.setCell(69, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(69, 3, 17);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testSelectAll')
+data.setCell(70, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(70, 3, 17);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testTimkiemByMaNVOrTenNV')
+data.setCell(71, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(71, 3, 17);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testUpdateWithNullModel')
+data.setCell(72, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(72, 3, 17);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testSelectByIdDH')
+data.setCell(73, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(73, 3, 16);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'testSelectByEmail')
+data.setCell(74, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(74, 3, 15);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'getGhiChuTest')
+data.setCell(75, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(75, 3, 14);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'getSoLuongTest')
+data.setCell(76, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(76, 3, 6);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'getTotalPriceTest')
+data.setCell(77, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(77, 3, 4);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testInsertWithEmptyModel')
+data.setCell(78, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(78, 3, 3);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'setTongTienTest')
+data.setCell(79, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(79, 3, 2);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testInsertWithEmptyModel')
+data.setCell(80, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(80, 3, 2);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testUpdateWithEmptyModel')
+data.setCell(81, 2, 'TestNGDAO.TestPhanLoaiSanPhamDAO')
+data.setCell(81, 3, 2);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'getDonGiaTest')
+data.setCell(82, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(82, 3, 2);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'testInsertWithEmptyModel')
+data.setCell(83, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(83, 3, 2);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'getMaNVTest')
+data.setCell(84, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(84, 3, 2);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'testUpdateWithEmptyModel')
+data.setCell(85, 2, 'TestNGDAO.TestDonHangDAO')
+data.setCell(85, 3, 2);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'setNgayLapTest')
+data.setCell(86, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(86, 3, 2);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'setDonGiaTestWithZero')
+data.setCell(87, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(87, 3, 1);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'setDonGiaTestWithValid')
+data.setCell(88, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(88, 3, 1);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'testUpdateWithEmptyModel')
+data.setCell(89, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(89, 3, 1);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'getMaDHCTTest')
+data.setCell(90, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(90, 3, 1);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'getNgayLapTest')
+data.setCell(91, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(91, 3, 1);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'getMaSPTest')
+data.setCell(92, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(92, 3, 1);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'getMaDHTest')
+data.setCell(93, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(93, 3, 1);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'setSoLuongTestWithZero')
+data.setCell(94, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(94, 3, 1);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'testInsertWithEmptyModel')
+data.setCell(95, 2, 'TestNGDAO.TestNhanVienDAO')
+data.setCell(95, 3, 1);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'testUpdateWithEmptyModel')
+data.setCell(96, 2, 'TestNGDAO.TestKhachHangDAO')
+data.setCell(96, 3, 1);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'getGhiChuTest')
+data.setCell(97, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(97, 3, 1);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'setMaDHCTTest')
+data.setCell(98, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(98, 3, 1);
+data.setCell(99, 0, 99)
+data.setCell(99, 1, 'getTongTienTest')
+data.setCell(99, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(99, 3, 1);
+data.setCell(100, 0, 100)
+data.setCell(100, 1, 'setSoLuongTestWithNegative')
+data.setCell(100, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(100, 3, 1);
+data.setCell(101, 0, 101)
+data.setCell(101, 1, 'setGhiChuTest')
+data.setCell(101, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(101, 3, 1);
+data.setCell(102, 0, 102)
+data.setCell(102, 1, 'getMaKHTest')
+data.setCell(102, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(102, 3, 1);
+data.setCell(103, 0, 103)
+data.setCell(103, 1, 'setMaDHTest')
+data.setCell(103, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(103, 3, 1);
+data.setCell(104, 0, 104)
+data.setCell(104, 1, 'setSoLuongTestWithValid')
+data.setCell(104, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(104, 3, 1);
+data.setCell(105, 0, 105)
+data.setCell(105, 1, 'testUpdateWithEmptyModel')
+data.setCell(105, 2, 'TestNGDAO.TestDonHangChiTietDAO')
+data.setCell(105, 3, 1);
+data.setCell(106, 0, 106)
+data.setCell(106, 1, 'setDonGiaTestWithNegative')
+data.setCell(106, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(106, 3, 1);
+data.setCell(107, 0, 107)
+data.setCell(107, 1, 'setMaKHTest')
+data.setCell(107, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(107, 3, 0);
+data.setCell(108, 0, 108)
+data.setCell(108, 1, 'setMaDHTest')
+data.setCell(108, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(108, 3, 0);
+data.setCell(109, 0, 109)
+data.setCell(109, 1, 'setNgayLap_withInvalidDate')
+data.setCell(109, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(109, 3, 0);
+data.setCell(110, 0, 110)
+data.setCell(110, 1, 'setMaSPTest')
+data.setCell(110, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(110, 3, 0);
+data.setCell(111, 0, 111)
+data.setCell(111, 1, 'setMaNVTest')
+data.setCell(111, 2, 'ShopQuanLyAoQuan.entity.test.DonHangTest')
+data.setCell(111, 3, 0);
+data.setCell(112, 0, 112)
+data.setCell(112, 1, 'getMaDHTest')
+data.setCell(112, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(112, 3, 0);
+data.setCell(113, 0, 113)
+data.setCell(113, 1, 'setGhiChuTest')
+data.setCell(113, 2, 'ShopQuanLyAoQuan.entity.test.DonHangChiTietTest')
+data.setCell(113, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ShopQuanLyAoQuan.entity.test.DonHangTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getGhiChuTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaDHTest</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaKHTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaNVTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getNgayLapTest</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTongTienTest</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setGhiChuTest</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaDHTest</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaKHTest</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaNVTest</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setNgayLapTest</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setNgayLap_withInvalidDate</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setTongTienTest</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestPhanLoaiSanPhamDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMaLoaiExists</span>
+                <span class="method-start">704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">736 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">783 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testTenLoaiExists</span>
+                <span class="method-start">784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">832 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">879 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestSanPhamDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">1001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">1042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">1065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">1085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectByTenSP</span>
+                <span class="method-start">1106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTimKiemByMaSPOrTenSP</span>
+                <span class="method-start">1127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">1147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">1189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">1210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1248 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestDonHangDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">1250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">1273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">1293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">1318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">1321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">1349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">1389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">1409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectBySql</span>
+                <span class="method-start">1429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectDay</span>
+                <span class="method-start">1449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectMonth</span>
+                <span class="method-start">1470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectNhanVienByMaDH</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSelectNhanVienByMaNV</span>
+                <span class="method-start">1511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectYear</span>
+                <span class="method-start">1535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">1557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">1560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">1583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1631 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getDonGiaTest</span>
+                <span class="method-start">1632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGhiChuTest</span>
+                <span class="method-start">1635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaDHCTTest</span>
+                <span class="method-start">1636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaDHTest</span>
+                <span class="method-start">1638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getMaSPTest</span>
+                <span class="method-start">1639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSoLuongTest</span>
+                <span class="method-start">1640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTotalPriceTest</span>
+                <span class="method-start">1651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setDonGiaTestWithNegative</span>
+                <span class="method-start">1656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setDonGiaTestWithValid</span>
+                <span class="method-start">1662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setDonGiaTestWithZero</span>
+                <span class="method-start">1664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setGhiChuTest</span>
+                <span class="method-start">1666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaDHCTTest</span>
+                <span class="method-start">1667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaDHTest</span>
+                <span class="method-start">1669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setMaSPTest</span>
+                <span class="method-start">1670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setSoLuongTestWithNegative</span>
+                <span class="method-start">1672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setSoLuongTestWithValid</span>
+                <span class="method-start">1673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setSoLuongTestWithZero</span>
+                <span class="method-start">1675 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestKhachHangDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">1678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">1704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">1727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">1752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">1755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">1775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">1817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectByEmail</span>
+                <span class="method-start">1838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">1858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectBySDT</span>
+                <span class="method-start">1880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTimKiemByMaKHOrHoTen</span>
+                <span class="method-start">1899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">1919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">1922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">1943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1962 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestDonHangChiTietDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">1965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">1983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">2002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2002 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">2021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">2042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">2063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">2110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">2131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectByIdDH</span>
+                <span class="method-start">2150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2167 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">2167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">2169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">2187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2207 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNGDAO.TestNhanVienDAO</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithEmptyModel</span>
+                <span class="method-start">2211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithNullModel</span>
+                <span class="method-start">2232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteWithValidModel</span>
+                <span class="method-start">2251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithEmptyModel</span>
+                <span class="method-start">2285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithNullModel</span>
+                <span class="method-start">2287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testInsertWithValidModel</span>
+                <span class="method-start">2306 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMaNVExists</span>
+                <span class="method-start">2325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectAll</span>
+                <span class="method-start">2343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectByEmail</span>
+                <span class="method-start">2361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectById</span>
+                <span class="method-start">2377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2396 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectBySDT</span>
+                <span class="method-start">2397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTimkiemByMaNVOrTenNV</span>
+                <span class="method-start">2416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithEmptyModel</span>
+                <span class="method-start">2434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithNullModel</span>
+                <span class="method-start">2436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWithValidModel</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2494 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

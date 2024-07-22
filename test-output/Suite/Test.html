@@ -1,0 +1,707 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>113/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 09 19:43:37 ICT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2546 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaNV()'><b>testSelectNhanVienByMaNV</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm tra truy vấn đơn hàng theo mã nhân viên</td>
+<td><div><pre>java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:78)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectNhanVienByMaNV(DonHangDAO.java:83)
+	at TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaNV(TestDonHangDAO.java:208)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:233)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.findColumn(SQLServerResultSet.java:748)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getString(SQLServerResultSet.java:2582)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:69)
+	... 28 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1198817209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1198817209'><pre>java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:78)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectNhanVienByMaNV(DonHangDAO.java:83)
+	at TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaNV(TestDonHangDAO.java:208)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:233)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.findColumn(SQLServerResultSet.java:748)
+	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getString(SQLServerResultSet.java:2582)
+	at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:69)
+	... 28 more
+</pre></div></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setDonGiaTestWithZero()'><b>setDonGiaTestWithZero</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setDonGiaTestWithValid()'><b>setDonGiaTestWithValid</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setTongTienTest()'><b>setTongTienTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testSelectByEmail()'><b>testSelectByEmail</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử lấy theo Email</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testSelectByIdDH()'><b>testSelectByIdDH</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testMaLoaiExists()'><b>testMaLoaiExists</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử kiểm tra sự tồn tại của Mã Loại</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectYear()'><b>testSelectYear</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm tra truy vấn đơn hàng theo năm</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử lấy theo ID</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setMaKHTest()'><b>setMaKHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testTimKiemByMaSPOrTenSP()'><b>testTimKiemByMaSPOrTenSP</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử tìm kiếm theo Mã SP hoặc Tên SP</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testSelectBySDT()'><b>testSelectBySDT</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử lấy theo SDT</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getMaDHCTTest()'><b>getMaDHCTTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setMaDHTest()'><b>setMaDHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getNgayLapTest()'><b>getNgayLapTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử lấy theo ID</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getMaSPTest()'><b>getMaSPTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getDonGiaTest()'><b>getDonGiaTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testSelectBySDT()'><b>testSelectBySDT</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử lấy theo SDT</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getMaDHTest()'><b>getMaDHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setNgayLap_withInvalidDate()'><b>setNgayLap_withInvalidDate</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testTimKiemByMaKHOrHoTen()'><b>testTimKiemByMaKHOrHoTen</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử tìm kiếm theo Mã KH hoặc Tên KH</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setSoLuongTestWithZero()'><b>setSoLuongTestWithZero</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectBySql()'><b>testSelectBySql</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm tra truy vấn đơn hàng bằng SQL</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm tra lấy tất cả các bản ghi từ bảng hóa đơn chi tiết</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử lấy tất cả</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testTenLoaiExists()'><b>testTenLoaiExists</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử kiểm tra sự tồn tại của Tên Loại</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử lấy tất cả</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectMonth()'><b>testSelectMonth</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm tra truy vấn đơn hàng theo tháng</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testInsertWithNullModel()'><b>testInsertWithNullModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử chèn với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getGhiChuTest()'><b>getGhiChuTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setMaSPTest()'><b>setMaSPTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testMaNVExists()'><b>testMaNVExists</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm tra sự tồn tại của Mã NV</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setMaDHCTTest()'><b>setMaDHCTTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testSelectByEmail()'><b>testSelectByEmail</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử lấy theo Email</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử lấy tất cả</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setMaNVTest()'><b>setMaNVTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getTongTienTest()'><b>getTongTienTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testInsertWithEmptyModel()'><b>testInsertWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử chèn với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getSoLuongTest()'><b>getSoLuongTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setSoLuongTestWithNegative()'><b>setSoLuongTestWithNegative</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng chi tiết</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getMaNVTest()'><b>getMaNVTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaDH()'><b>testSelectNhanVienByMaDH</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm tra truy vấn nhân viên theo mã đơn hàng</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setGhiChuTest()'><b>setGhiChuTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử lấy tất cả</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử lấy theo ID</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getMaDHTest()'><b>getMaDHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử lấy theo ID</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testSelectAll()'><b>testSelectAll</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử lấy tất cả</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getMaKHTest()'><b>getMaKHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testUpdateWithValidModel()'><b>testUpdateWithValidModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử cập nhật với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testTimkiemByMaNVOrTenNV()'><b>testTimkiemByMaNVOrTenNV</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử tìm kiếm theo Mã NV hoặc Tên NV</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.getGhiChuTest()'><b>getGhiChuTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.getTotalPriceTest()'><b>getTotalPriceTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testSelectByTenSP()'><b>testSelectByTenSP</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử lấy theo Tên SP</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setGhiChuTest()'><b>setGhiChuTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testSelectDay()'><b>testSelectDay</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử lấy danh sách các ngày đơn hàng</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testDeleteWithNullModel()'><b>testDeleteWithNullModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử xóa với ID null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setMaDHTest()'><b>setMaDHTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setSoLuongTestWithValid()'><b>setSoLuongTestWithValid</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testInsertWithValidModel()'><b>testInsertWithValidModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử chèn với mô hình hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangChiTietDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangChiTietDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangChiTietDAO@53f6fd09</td></tr>
+<tr>
+<td title='TestNGDAO.TestKhachHangDAO.testDeleteWithEmptyModel()'><b>testDeleteWithEmptyModel</b><br>Test class: TestNGDAO.TestKhachHangDAO<br>Test method: Kiểm thử xóa với ID trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestKhachHangDAO@38aa816f</td></tr>
+<tr>
+<td title='TestNGDAO.TestNhanVienDAO.testUpdateWithNullModel()'><b>testUpdateWithNullModel</b><br>Test class: TestNGDAO.TestNhanVienDAO<br>Test method: Kiểm thử cập nhật với mô hình null</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestNhanVienDAO@6bffbc6d</td></tr>
+<tr>
+<td title='TestNGDAO.TestDonHangDAO.testUpdateWithEmptyModel()'><b>testUpdateWithEmptyModel</b><br>Test class: TestNGDAO.TestDonHangDAO<br>Test method: Kiểm thử cập nhật với mô hình trống</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestDonHangDAO@2f62ea70</td></tr>
+<tr>
+<td title='TestNGDAO.TestPhanLoaiSanPhamDAO.testSelectById()'><b>testSelectById</b><br>Test class: TestNGDAO.TestPhanLoaiSanPhamDAO<br>Test method: Kiểm thử lấy theo ID</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangChiTietTest.setDonGiaTestWithNegative()'><b>setDonGiaTestWithNegative</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangChiTietTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639</td></tr>
+<tr>
+<td title='ShopQuanLyAoQuan.entity.test.DonHangTest.setNgayLapTest()'><b>setNgayLapTest</b><br>Test class: ShopQuanLyAoQuan.entity.test.DonHangTest</td>
+<td></td>
+<td>0</td>
+<td>ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54</td></tr>
+<tr>
+<td title='TestNGDAO.TestSanPhamDAO.testDeleteWithValidModel()'><b>testDeleteWithValidModel</b><br>Test class: TestNGDAO.TestSanPhamDAO<br>Test method: Kiểm thử xóa với ID hợp lệ</td>
+<td></td>
+<td>0</td>
+<td>TestNGDAO.TestSanPhamDAO@7a1234bf</td></tr>
+</table><p>
+</body>
+</html>

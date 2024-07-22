@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="H&#x1af;&#x1eda;NG D&#x1eaa;N S&#x1eec; D&#x1ee4;NG PH&#x1ea6;N M&#x1ec0;M QU&#x1ea2;N L&#xdd; SHOP QU&#x1ea6;N &#xc1;O FSM"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="H&#x1b0;&#x1edb;ng d&#x1eab;n chung">
+                    <Property name="tabTitle" type="java.lang.String" value="H&#x1b0;&#x1edb;ng d&#x1eab;n chung"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" pref="891" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="437" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea1">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="&#xa;&#x110;&#x1ec3; s&#x1eed; d&#x1ee5;ng ph&#x1ea7;n m&#x1ec1;m qu&#x1ea3;n l&#xfd; shop qu&#x1ea7;n &#xe1;o, b&#x1ea1;n c&#xf3; th&#x1ec3; th&#x1ef1;c hi&#x1ec7;n c&#xe1;c b&#x1b0;&#x1edb;c sau:&#xa;&#xa;1. &#x110;&#x103;ng nh&#x1ead;p v&#xe0;o h&#x1ec7; th&#x1ed1;ng : M&#x1edf; ph&#x1ea7;n m&#x1ec1;m v&#xe0; &#x111;i&#x1ec1;n th&#xf4;ng tin &#x111;&#x103;ng nh&#x1ead;p nh&#x1b0; t&#xea;n ng&#x1b0;&#x1edd;i d&#xf9;ng v&#xe0; m&#x1ead;t kh&#x1ea9;u. Nh&#x1ea5;n &quot;&#x110;&#x103;ng Nh&#x1ead;p&quot; &#x111;&#x1ec3; truy c&#x1ead;p v&#xe0;o h&#x1ec7; th&#x1ed1;ng.&#xa;2. Sau khi &#x111;&#x103;ng nh&#x1ead;p th&#xe0;nh c&#xf4;ng, b&#x1ea1;n s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c chuy&#x1ec3;n &#x111;&#x1ebf;n giao di&#x1ec7;n ch&#xed;nh c&#x1ee7;a h&#x1ec7; th&#x1ed1;ng FSM. T&#x1ea1;i &#x111;&#xe2;y, b&#x1ea1;n s&#x1ebd; t&#xec;m th&#x1ea5;y c&#xe1;c ch&#x1ee9;c n&#x103;ng v&#xe0; t&#xed;nh n&#x103;ng kh&#xe1;c nhau.&#xa;3.Qu&#x1ea3;n L&#xfd; T&#xe0;i Kho&#x1ea3;n: FSM cung c&#x1ea5;p cho b&#x1ea1;n c&#xe1;c t&#xed;nh n&#x103;ng &#x111;&#x1ec3; qu&#x1ea3;n l&#xfd; t&#xe0;i kho&#x1ea3;n ng&#x1b0;&#x1edd;i d&#xf9;ng h&#x1ec7; th&#x1ed1;ng.&#xa;   N&#x1ebf;u b&#x1ea1;n l&#xe0; admin , b&#x1ea1;n c&#xf3; th&#x1ec3; th&#xea;m, s&#x1eed;a &#x111;&#x1ed5;i v&#xe0; x&#xf3;a th&#xf4;ng tin t&#xe0;i kho&#x1ea3;n nh&#xe2;n vi&#xea;n. N&#x1ebf;u b&#x1ea1;n l&#xe0; nh&#xe2;n vi&#xea;n, b&#x1ea1;n ch&#x1ec9; c&#xf3; th&#x1ec3; c&#x1ead;p nh&#x1ead;t th&#xf4;ng tin c&#xe1; nh&#xe2;n.&#xa;4.Qu&#x1ea3;n L&#xfd; Nh&#xe2;n Vi&#xea;n:  FSM cho ph&#xe9;p b&#x1ea1;n qu&#x1ea3;n l&#xfd; h&#x1ed3; s&#x1a1; nh&#xe2;n vi&#xea;n. B&#x1ea1;n c&#xf3; th&#x1ec3; xem, t&#x1ea1;o, ch&#x1ec9;nh s&#x1eed;a h&#x1ed3; s&#x1a1;. V&#x1edb;i t&#xed;nh n&#x103;ng x&#xf3;a h&#x1ed3; s&#x1a1;, ch&#x1ec9; c&#xf3; th&#x1ec3; th&#x1ef1;c hi&#x1ec7;n b&#x1edf;i admin.&#xa;5.Qu&#x1ea3;n L&#xfd; S&#x1ea3;n Ph&#x1ea9;m: FSM cung c&#x1ea5;p c&#xe1;c t&#xed;nh n&#x103;ng &#x111;&#x1ec3; qu&#x1ea3;n l&#xfd; c&#xe1;c s&#x1ea3;n ph&#x1ea9;m&#xa;  V&#x1edb;i vai tr&#xf2; admin b&#x1ea1;n c&#xf3; th&#x1ec3; th&#xea;m s&#x1ea3;n ph&#x1ea9;m v&#xe0;o danh m&#x1ee5;c, ch&#x1ec9;nh s&#x1eed;a v&#xe0; x&#xf3;a s&#x1ea3;n ph&#x1ea9;m. V&#xe0; n&#x1ebf;u b&#x1ea1;n l&#xe0; nh&#xe2;n vi&#xea;n c&#x1eed;a h&#xe0;ng, b&#x1ea1;n ch&#x1ec9; c&#xf3; th&#x1ec3; xem danh m&#x1ee5;c s&#x1ea3;n ph&#x1ea9;m &#xa;  m&#xe0; kh&#xf4;ng th&#x1ec3; th&#x1ef1;c hi&#x1ec7;n thao t&#xe1;c c&#xe1;c t&#xed;nh n&#x103;ng &#x1edf; m&#x1ee5;c n&#xe0;y.&#xa;6.Qu&#x1ea3;n L&#xfd; Kh&#xe1;ch H&#xe0;ng: B&#x1ea1;n c&#xf3; th&#x1ec3; t&#x1ea1;o v&#xe0; qu&#x1ea3;n l&#xfd; th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng c&#x1ee7;a shop, c&#x1ead;p nh&#x1ead;t nh&#x1eef;ng kh&#xe1;ch h&#xe0;ng quen thu&#x1ed9;c. &#xa;7.Qu&#x1ea3;n L&#xfd; &#x110;&#x1a1;n H&#xe0;ng: B&#x1ea1;n c&#xf3; th&#x1ec3; qu&#x1ea3;n l&#xfd; danh s&#xe1;ch c&#xe1;c &#x111;&#x1a1;n h&#xe0;ng v&#xe0; &#x111;&#x1a1;n h&#xe0;ng chi ti&#x1ebf;t.&#xa;  &#x110;&#x1ec3; t&#x1ea1;o &#x111;&#x1a1;n h&#xe0;ng m&#x1edb;i, b&#x1ea1;n c&#x1ea7;n ch&#x1ecd;n s&#x1ea3;n ph&#x1ea9;m v&#xe0; nh&#x1ead;p th&#xf4;ng tin li&#xea;n l&#x1ea1;c c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#x1ec3; t&#x1ea1;o &#x111;&#x1a1;n h&#xe0;ng.&#xa;  B&#x1ea1;n ch&#x1ec9; c&#xf3; th&#x1ec3; th&#xea;m m&#x1edb;i &#x111;&#x1a1;n h&#xe0;ng chi ti&#x1ebf;t n&#x1ebf;u &#x111;&#xe3; c&#xf3; &#x111;&#x1a1;n h&#xe0;ng tr&#x1b0;&#x1edb;c &#x111;&#xf3;. &#xa;  L&#x1b0;u &#xfd; : B&#x1ea1;n c&#x1ea7;n th&#xea;m m&#x1edb;i kh&#xe1;ch h&#xe0;ng &#x1edf; m&#x1ee5;c qu&#x1ea3;n l&#xfd; kh&#xe1;ch h&#xe0;ng tr&#x1b0;&#x1edb;c khi th&#xea;m m&#x1edb;i &#x111;&#x1a1;n h&#xe0;ng.&#xa;9.Ch&#x103;m S&#xf3;c Kh&#xe1;ch H&#xe0;ng: FSM cung c&#x1ea5;p cho b&#x1ea1;n t&#xed;nh n&#x103;ng li&#xea;n h&#x1ec7; c&#x169;ng nh&#x1b0; trao &#x111;&#x1ed5;i th&#xf4;ng tin d&#x1ecb;ch v&#x1ee5; t&#x1edb;i kh&#xe1;ch h&#xe0;ng qua mail. &#xa;   Ghi l&#x1ea1;i th&#xf4;ng tin v&#xe0; y&#xea;u c&#x1ea7;u c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#x1ec3; theo d&#xf5;i v&#xe0; gi&#x1ea3;i quy&#x1ebf;t.&#xa;10.B&#xe1;o C&#xe1;o Th&#x1ed1;ng K&#xea;: B&#x1ea1;n c&#xf3; th&#x1ec3; theo d&#xf5;i th&#x1ed1;ng k&#xea; v&#x1ec1; doanh thu v&#xe0; s&#x1ed1; l&#x1b0;&#x1ee3;ng h&#xe0;ng t&#x1ed3;n kho.&#xa;    V&#x1edb;i b&#xe1;o c&#xe1;o doanh thu, ch&#x1ec9; admin m&#x1edb;i &#x111;&#x1b0;&#x1ee3;c ph&#xe9;p truy c&#x1ead;p v&#xe0; c&#xf3; th&#x1ec3; t&#x1ed5;ng h&#x1ee3;p doanh s&#x1ed1; b&#xe1;n h&#xe0;ng trong m&#x1ed9;t kho&#x1ea3;ng th&#x1edd;i gian c&#x1ee5; th&#x1ec3;.&#xa;    V&#x1edb;i b&#xe1;o c&#xe1;o h&#xe0;ng t&#x1ed3;n kho, FSM cung c&#x1ea5;p cho b&#x1ea1;n theo d&#xf5;i s&#x1ed1; l&#x1b0;&#x1ee3;ng s&#x1ea3;n ph&#x1ea9;m c&#xf2;n trong kho v&#xe0; xu&#x1ea5;t b&#xe1;o c&#xe1;o t&#x1ed3;n kho.&#xa;&#xa;L&#x1b0;u &#xfd; r&#x1eb1;ng c&#xe1;c b&#x1b0;&#x1edb;c n&#xe0;y ch&#x1ec9; l&#xe0; h&#x1b0;&#x1edb;ng d&#x1eab;n chung v&#xe0; c&#xf3; th&#x1ec3; thay &#x111;&#x1ed5;i t&#xf9;y theo phi&#xea;n b&#x1ea3;n c&#x1ee5; th&#x1ec3; v&#xe0; ch&#x1ee9;c n&#x103;ng c&#x1ee5; th&#x1ec3; c&#x1ee7;a ph&#x1ea7;n m&#x1ec1;m qu&#x1ea3;n l&#xfd; shop qu&#x1ea7;n &#xe1;o m&#xe0; b&#x1ea1;n &#x111;ang &#xa;s&#x1eed; d&#x1ee5;ng."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="H&#x1b0;&#x1edb;ng d&#x1eab;n ch&#x1ee9;c n&#x103;ng">
+                    <Property name="tabTitle" type="java.lang.String" value="H&#x1b0;&#x1edb;ng d&#x1eab;n ch&#x1ee9;c n&#x103;ng"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" pref="891" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="419" max="-2" attributes="0"/>
+                          <EmptySpace pref="54" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea2">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="&#x110;&#x1ec3; th&#x1ef1;c hi&#x1ec7;n c&#xe1;c thao t&#xe1;c insert, update, delete v&#x1edb;i d&#x1eef; li&#x1ec7;u trong c&#xe1;c b&#x1ea3;ng, c&#xf3; th&#x1ec3; th&#x1ef1;c hi&#x1ec7;n c&#xe1;c thao t&#xe1;c sau : &#xa;Insert : &#xa;+ M&#x1edf; &#x111;&#x1ebf;n c&#xe1;c form qu&#x1ea3;n l&#xfd; nh&#x1b0; qu&#x1ea3;n l&#xfd; nh&#xe2;n vi&#xea;n, qu&#x1ea3;n l&#xfd; kh&#xe1;ch h&#xe0;ng, qu&#x1ea3;n l&#xfd; s&#x1ea3;n ph&#x1ea9;m,....&#xa;+ T&#x1ea1;i trang b&#x1ea1;n s&#x1ebd; th&#x1ea5;y c&#xe1;c n&#xfa;t nh&#x1b0; &quot;M&#x1edb;i&quot;, &quot;L&#x1b0;u&quot;.&#xa;+ Ch&#x1ecd;n n&#xfa;t &quot;M&#x1edb;i&quot; &#x111;&#x1ec3; l&#xe0;m m&#x1edb;i d&#x1eef; li&#x1ec7;u &#x1edf; c&#xe1;c tr&#x1b0;&#x1edd;ng v&#xe0; &#x111;i&#x1ec1;n th&#xf4;ng tin v&#xe0;o&#xa;+ Sau khi &#x111;i&#x1ec1;n xong th&#xf4;ng tin, nh&#x1ea5;n n&#xfa;t &quot;L&#x1b0;u&quot; &#x111;&#x1ec3; insert th&#xf4;ng tin v&#xe0;o c&#x1a1; s&#x1edf; d&#x1eef; li&#x1ec7;u.&#xa;Update : &#xa;+T&#x1ea1;i trang mu&#x1ed1;n th&#x1ef1;c hi&#x1ec7;n update, nh&#xe1;y &#x111;&#xfa;p chu&#x1ed9;t v&#xe0;o tr&#x1b0;&#x1edd;ng d&#x1eef; li&#x1ec7;u b&#x1ea1;n mu&#x1ed1;n update&#xa;+ Sau khi d&#x1eef; li&#x1ec7;u &#x111;&#x1b0;&#x1ee3;c &#x111;&#x1ed5; v&#xe0;o c&#xe1;c &#x111;i&#x1ec1;u khi&#x1ec3;n, ch&#x1ec9;nh s&#x1eed;a th&#xf4;ng tin b&#x1ea1;n mu&#x1ed1;n ch&#x1ec9;nh s&#x1eed;a&#xa;+ Sau khi ch&#x1ec9;nh s&#x1eed;a xong, nh&#x1ea5;n n&#xfa;t &quot;S&#x1eed;a&quot; &#x111;&#x1ec3; ho&#xe0;n t&#x1ea5;t qu&#xe1; tr&#xec;nh ch&#x1ec9;nh s&#x1eed;a.&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

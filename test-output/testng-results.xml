@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="114" passed="113" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-09T19:43:37 ICT" name="Suite" finished-at="2024-04-09T19:43:40 ICT" duration-ms="2546">
+    <groups>
+    </groups>
+    <test started-at="2024-04-09T19:43:37 ICT" name="Test" finished-at="2024-04-09T19:43:40 ICT" duration-ms="2546">
+      <class name="TestNGDAO.TestNhanVienDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMaNVExists()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testMaNVExists" description="Kiểm tra sự tồn tại của Mã NV" finished-at="2024-04-09T19:43:39 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaNVExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testSelectAll" description="Kiểm thử lấy tất cả" finished-at="2024-04-09T19:43:39 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectByEmail()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testSelectByEmail" description="Kiểm thử lấy theo Email" finished-at="2024-04-09T19:43:39 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByEmail -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="testSelectById" description="Kiểm thử lấy theo ID" finished-at="2024-04-09T19:43:40 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectBySDT()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="testSelectBySDT" description="Kiểm thử lấy theo SDT" finished-at="2024-04-09T19:43:40 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySDT -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="setUp" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testTimkiemByMaNVOrTenNV()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="testTimkiemByMaNVOrTenNV" description="Kiểm thử tìm kiếm theo Mã NV hoặc Tên NV" finished-at="2024-04-09T19:43:40 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTimkiemByMaNVOrTenNV -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="setUp" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:40 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="setUp" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:40 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="setUp" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:40 ICT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="setUp" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestNhanVienDAO@6bffbc6d]" started-at="2024-04-09T19:43:40 ICT" name="tearDown" finished-at="2024-04-09T19:43:40 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestNhanVienDAO -->
+      <class name="TestNGDAO.TestDonHangChiTietDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testSelectAll" description="Kiểm tra lấy tất cả các bản ghi từ bảng hóa đơn chi tiết" finished-at="2024-04-09T19:43:39 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testSelectById" description="Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng chi tiết" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectByIdDH()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testSelectByIdDH" description="Kiểm tra lấy các cột của bảng hóa đơn chi tiết theo mã đơn hàng" finished-at="2024-04-09T19:43:39 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByIdDH -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangChiTietDAO@53f6fd09]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestDonHangChiTietDAO -->
+      <class name="ShopQuanLyAoQuan.entity.test.DonHangTest">
+        <test-method signature="getGhiChuTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getGhiChuTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGhiChuTest -->
+        <test-method signature="getMaDHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getMaDHTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaDHTest -->
+        <test-method signature="getMaKHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getMaKHTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaKHTest -->
+        <test-method signature="getMaNVTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getMaNVTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaNVTest -->
+        <test-method signature="getNgayLapTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getNgayLapTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNgayLapTest -->
+        <test-method signature="getTongTienTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="getTongTienTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTongTienTest -->
+        <test-method signature="setGhiChuTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setGhiChuTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGhiChuTest -->
+        <test-method signature="setMaDHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setMaDHTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaDHTest -->
+        <test-method signature="setMaKHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setMaKHTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaKHTest -->
+        <test-method signature="setMaNVTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setMaNVTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaNVTest -->
+        <test-method signature="setNgayLapTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setNgayLapTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNgayLapTest -->
+        <test-method signature="setNgayLap_withInvalidDate()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setNgayLap_withInvalidDate" finished-at="2024-04-09T19:43:37 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNgayLap_withInvalidDate -->
+        <test-method signature="setTongTienTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangTest@a4add54]" started-at="2024-04-09T19:43:37 ICT" name="setTongTienTest" finished-at="2024-04-09T19:43:37 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTongTienTest -->
+      </class> <!-- ShopQuanLyAoQuan.entity.test.DonHangTest -->
+      <class name="TestNGDAO.TestDonHangDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectAll" description="Kiểm thử lấy tất cả" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectById" description="Kiểm thử lấy theo ID" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectBySql()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectBySql" description="Kiểm tra truy vấn đơn hàng bằng SQL" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectDay()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectDay" description="Kiểm thử lấy danh sách các ngày đơn hàng" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectDay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectMonth()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectMonth" description="Kiểm tra truy vấn đơn hàng theo tháng" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectMonth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectNhanVienByMaDH()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectNhanVienByMaDH" description="Kiểm tra truy vấn nhân viên theo mã đơn hàng" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectNhanVienByMaDH -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectNhanVienByMaNV()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectNhanVienByMaNV" description="Kiểm tra truy vấn đơn hàng theo mã nhân viên" finished-at="2024-04-09T19:43:39 ICT" duration-ms="22" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:78)
+at ShopQuanLyAoQuan.dao.DonHangDAO.selectNhanVienByMaNV(DonHangDAO.java:83)
+at TestNGDAO.TestDonHangDAO.testSelectNhanVienByMaNV(TestDonHangDAO.java:208)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The column name MaDH is not valid.
+at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:233)
+at com.microsoft.sqlserver.jdbc.SQLServerResultSet.findColumn(SQLServerResultSet.java:748)
+at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getString(SQLServerResultSet.java:2582)
+at ShopQuanLyAoQuan.dao.DonHangDAO.selectBySql(DonHangDAO.java:69)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectNhanVienByMaNV -->
+        <test-method signature="testSelectYear()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testSelectYear" description="Kiểm tra truy vấn đơn hàng theo năm" finished-at="2024-04-09T19:43:39 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectYear -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestDonHangDAO@2f62ea70]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestDonHangDAO -->
+      <class name="TestNGDAO.TestSanPhamDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testSelectAll" description="Kiểm thử lấy tất cả" finished-at="2024-04-09T19:43:38 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testSelectById" description="Kiểm thử lấy theo ID" finished-at="2024-04-09T19:43:38 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectByTenSP()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testSelectByTenSP" description="Kiểm thử lấy theo Tên SP" finished-at="2024-04-09T19:43:38 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByTenSP -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testTimKiemByMaSPOrTenSP()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testTimKiemByMaSPOrTenSP" description="Kiểm thử tìm kiếm theo Mã SP hoặc Tên SP" finished-at="2024-04-09T19:43:38 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTimKiemByMaSPOrTenSP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestSanPhamDAO@7a1234bf]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestSanPhamDAO -->
+      <class name="ShopQuanLyAoQuan.entity.test.DonHangChiTietTest">
+        <test-method signature="getDonGiaTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getDonGiaTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDonGiaTest -->
+        <test-method signature="getGhiChuTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getGhiChuTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGhiChuTest -->
+        <test-method signature="getMaDHCTTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getMaDHCTTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaDHCTTest -->
+        <test-method signature="getMaDHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getMaDHTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaDHTest -->
+        <test-method signature="getMaSPTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getMaSPTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaSPTest -->
+        <test-method signature="getSoLuongTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getSoLuongTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSoLuongTest -->
+        <test-method signature="getTotalPriceTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="getTotalPriceTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalPriceTest -->
+        <test-method signature="setDonGiaTestWithNegative()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setDonGiaTestWithNegative" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDonGiaTestWithNegative -->
+        <test-method signature="setDonGiaTestWithValid()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setDonGiaTestWithValid" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDonGiaTestWithValid -->
+        <test-method signature="setDonGiaTestWithZero()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setDonGiaTestWithZero" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDonGiaTestWithZero -->
+        <test-method signature="setGhiChuTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setGhiChuTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGhiChuTest -->
+        <test-method signature="setMaDHCTTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setMaDHCTTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaDHCTTest -->
+        <test-method signature="setMaDHTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setMaDHTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaDHTest -->
+        <test-method signature="setMaSPTest()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setMaSPTest" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMaSPTest -->
+        <test-method signature="setSoLuongTestWithNegative()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setSoLuongTestWithNegative" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSoLuongTestWithNegative -->
+        <test-method signature="setSoLuongTestWithValid()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setSoLuongTestWithValid" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSoLuongTestWithValid -->
+        <test-method signature="setSoLuongTestWithZero()[pri:0, instance:ShopQuanLyAoQuan.entity.test.DonHangChiTietTest@24ba9639]" started-at="2024-04-09T19:43:39 ICT" name="setSoLuongTestWithZero" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSoLuongTestWithZero -->
+      </class> <!-- ShopQuanLyAoQuan.entity.test.DonHangChiTietTest -->
+      <class name="TestNGDAO.TestPhanLoaiSanPhamDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:37 ICT" name="setUp" finished-at="2024-04-09T19:43:37 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:37 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMaLoaiExists()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testMaLoaiExists" description="Kiểm thử kiểm tra sự tồn tại của Mã Loại" finished-at="2024-04-09T19:43:38 ICT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaLoaiExists -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testSelectAll" description="Kiểm thử lấy tất cả" finished-at="2024-04-09T19:43:38 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testSelectById" description="Kiểm thử lấy theo ID" finished-at="2024-04-09T19:43:38 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testTenLoaiExists()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testTenLoaiExists" description="Kiểm thử kiểm tra sự tồn tại của Tên Loại" finished-at="2024-04-09T19:43:38 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTenLoaiExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:38 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:38 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="setUp" finished-at="2024-04-09T19:43:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:38 ICT" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestPhanLoaiSanPhamDAO@5bf0fe62]" started-at="2024-04-09T19:43:38 ICT" name="tearDown" finished-at="2024-04-09T19:43:38 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestPhanLoaiSanPhamDAO -->
+      <class name="TestNGDAO.TestKhachHangDAO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithEmptyModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithEmptyModel" description="Kiểm thử xóa với ID trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithEmptyModel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeleteWithNullModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithNullModel" description="Kiểm thử xóa với ID null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteWithValidModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testDeleteWithValidModel" description="Kiểm thử xóa với ID hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithEmptyModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithEmptyModel" description="Kiểm thử chèn với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithNullModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithNullModel" description="Kiểm thử chèn với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInsertWithValidModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testInsertWithValidModel" description="Kiểm thử chèn với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testSelectAll" description="Kiểm thử lấy tất cả" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectByEmail()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testSelectByEmail" description="Kiểm thử lấy theo Email" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByEmail -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testSelectById" description="Kiểm thử lấy theo ID" finished-at="2024-04-09T19:43:39 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectBySDT()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testSelectBySDT" description="Kiểm thử lấy theo SDT" finished-at="2024-04-09T19:43:39 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySDT -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTimKiemByMaKHOrHoTen()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testTimKiemByMaKHOrHoTen" description="Kiểm thử tìm kiếm theo Mã KH hoặc Tên KH" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTimKiemByMaKHOrHoTen -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithEmptyModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithEmptyModel" description="Kiểm thử cập nhật với mô hình trống" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithEmptyModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithNullModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithNullModel" description="Kiểm thử cập nhật với mô hình null" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithNullModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdateWithValidModel()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="testUpdateWithValidModel" description="Kiểm thử cập nhật với mô hình hợp lệ" finished-at="2024-04-09T19:43:39 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWithValidModel -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="setUp" finished-at="2024-04-09T19:43:39 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGDAO.TestKhachHangDAO@38aa816f]" started-at="2024-04-09T19:43:39 ICT" name="tearDown" finished-at="2024-04-09T19:43:39 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGDAO.TestKhachHangDAO -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
